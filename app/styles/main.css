@@ -5954,7 +5954,7 @@ td.visible-print {
     display: none !important;
   }
 }
-[class^=col-] {
+.show-grid [class^=col-] {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #eee;

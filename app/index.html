@@ -18,18 +18,22 @@
 <body>
 
 	<div class="container">
-		<p class="lead">
-			All I'm doing here is copying examples from
-			<a href="http://getbootstrap.com/css/#grid">getbootstrap.com/css/#grid</a>
-			and wrapping the text in spans so we can see the content better…
-		</p>
+		<div class="row">
+			<div class="col-sm-12">
+
+				<p class="lead">
+					All I'm doing here is copying examples from
+					<a href="http://getbootstrap.com/css/#grid">getbootstrap.com/css/#grid</a>
+					and wrapping the text in spans so we can see the content better…
+				</p>
+				<p class="lead">
+					Rows and columns inside .containers are bound to the defined max-widths defined.
+				</p>
+			</div>
+		</div>
 	</div>
 
-	<div class="container">
-
-		<p class="lead">
-			Rows and columns inside .containers are bound to the defined max-widths defined.
-		</p>
+	<div class="container show-grid">
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-8"><span>.col-xs-12 .col-sm-6 .col-md-8</span></div>
@@ -74,15 +78,22 @@
 			</div>
 		</div>
 
-		<hr>
-		<!-- I'll keep this note inside the .container for neatness… -->
-		<p class="lead">
-			Rows and columns inside .container-fluid are full-width… <br>
-			The markup below is repeated from above…
-		</p>
 	</div>
 
-	<div class="container-fluid">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<hr>
+				<!-- I'll keep this note inside the .container for neatness… -->
+				<p class="lead">
+					Rows and columns inside .container-fluid are full-width… <br>
+					The markup below is repeated from above…
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid show-grid">
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-8"><span>.col-xs-12 .col-sm-6 .col-md-8</span></div>
