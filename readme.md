@@ -7,8 +7,9 @@
 
 > For example, there is an image that is 981px wide, which spans the entire width of the container.
 
+Here's the demo site: http://ptim.github.io/Stack-Overflow-22850627/ which is a checkin of the dist directory of the master branch…
 
-The demo is put together using https://github.com/Thomas-Lebeau/generator-bootstrap-less
+The demo is put together using the very fine https://github.com/Thomas-Lebeau/generator-bootstrap-less
 
 I got a bit carried away at the start, the most important changes are here:
 
