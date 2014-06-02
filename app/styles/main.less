@@ -36,7 +36,8 @@
 
 // Large screen / wide desktop
 // Note: Deprecated @screen-lg and @screen-lg-desktop as of v3.0.1
-@screen-lg:                  1200px;
+// by making this so large, we're saying: "don't switch to the large breakpoint until the screen is 12000 pixels wide (practically never)"
+@screen-lg:                  12000px;
 @screen-lg-min:              @screen-lg;
 @screen-lg-desktop:          @screen-lg-min;
 
@@ -70,10 +71,11 @@
 @container-sm:                 @container-tablet;
 
 // Medium screen / desktop
-@container-desktop:            ((940px + @grid-gutter-width));
+@container-desktop:            ((981px + @grid-gutter-width));
 @container-md:                 @container-desktop;
 
 // Large screen / wide desktop
-@container-large-desktop:      ((1140px + @grid-gutter-width));
-@container-lg:                 @container-large-desktop;
+// just ignore these - we effectively disappeared them
+// @container-large-desktop:      ((1140px + @grid-gutter-width));
+// @container-lg:                 @container-large-desktop;
 

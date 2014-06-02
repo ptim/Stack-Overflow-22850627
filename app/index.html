@@ -21,9 +21,60 @@
 		<div class="row">
 			<div class="col-sm-12">
 
+				<h1>
+					In answer to the Stack Overflow question:
+				</h1>
 				<p class="lead">
-					oops, got carried away…
+					<a href="http://stackoverflow.com/questions/22850627/bootstrap-3-how-to-calculate-gutter-width-for-different-container-width?rq=1">Bootstrap 3: how to calculate gutter width for different container width</a>
 				</p>
+
+				<blockquote>
+					<em>
+						I have want to keep the container max-width at 981px simply because of that's how the designer implemented the layout in Photoshop.
+						<br><br>
+						For example, there is an image that is 981px wide, which spans the entire width of the container.
+					</em>
+				</blockquote>
+
+				<p>You can best achieve this by editing the less files themselves, rather than the compiled css.</p>
+
+				<p>If everything is nested properly, then all that's required is to override some variables (you can redefine variables, the last instance will rule, so just add these after importing the bootstrap styles): </p>
+
+				<h4>less:</h4>
+
+<pre><code>
+@import "../bower_components/bootstrap/less/bootstrap.less";
+
+// impractically large breakpoint for simplicity
+// now you've only got three breakpoints to play with :/
+@screen-lg: 12000px;
+
+@my-target-width: 981px;
+@container-desktop: ((@my-target-width + @grid-gutter-width));
+</code></pre>
+
+
+				<h4>html:</h4>
+
+<pre><code>
+&lt;div class="container">
+	&lt;div class="row">
+		&lt;div class="col-sm-12">
+			&lt;img class="img-responsive" src="http://lorempixel.com/g/1200/500/cats/1" alt="">
+		&lt;/div>
+	&lt;/div>
+&lt;/div>
+</code></pre>
+
+				<p>
+					<img class="img-responsive" src="http://lorempixel.com/g/1200/500/cats/1" alt="">
+				</p>
+
+				<p>(Don't forget to add <code>.img-responsive</code> to your images.)</p>
+
+				<p>I would say it'd be pretty impractical to override the required styles in css alone (if you're not using less or sass in the first place, you'd certainly miss some of the overrides you'd need to make in the compiled css).</p>
+
+				<p>I'd definitely recommend embracing the learning curve and using bootstrap with less or sass as it's intended.</p>
 
 			</div>
 		</div>

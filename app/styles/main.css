@@ -689,10 +689,10 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 1011px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .container {
     width: 1170px;
   }
@@ -1195,7 +1195,7 @@ pre code {
     margin-left: 0%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -5519,7 +5519,7 @@ td.visible-xs {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .visible-xs.visible-md {
     display: block !important;
   }
@@ -5534,7 +5534,7 @@ td.visible-xs {
     display: table-cell !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .visible-xs.visible-lg {
     display: block !important;
   }
@@ -5585,7 +5585,7 @@ td.visible-sm {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .visible-sm.visible-md {
     display: block !important;
   }
@@ -5600,7 +5600,7 @@ td.visible-sm {
     display: table-cell !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .visible-sm.visible-lg {
     display: block !important;
   }
@@ -5651,7 +5651,7 @@ td.visible-md {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .visible-md {
     display: block !important;
   }
@@ -5666,7 +5666,7 @@ td.visible-md {
     display: table-cell !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .visible-md.visible-lg {
     display: block !important;
   }
@@ -5717,7 +5717,7 @@ td.visible-lg {
     display: table-cell !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .visible-lg.visible-md {
     display: block !important;
   }
@@ -5732,7 +5732,7 @@ td.visible-lg {
     display: table-cell !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .visible-lg {
     display: block !important;
   }
@@ -5776,7 +5776,7 @@ td.hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .hidden-xs.hidden-md,
   tr.hidden-xs.hidden-md,
   th.hidden-xs.hidden-md,
@@ -5784,7 +5784,7 @@ td.hidden-xs {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .hidden-xs.hidden-lg,
   tr.hidden-xs.hidden-lg,
   th.hidden-xs.hidden-lg,
@@ -5821,7 +5821,7 @@ td.hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .hidden-sm.hidden-md,
   tr.hidden-sm.hidden-md,
   th.hidden-sm.hidden-md,
@@ -5829,7 +5829,7 @@ td.hidden-sm {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .hidden-sm.hidden-lg,
   tr.hidden-sm.hidden-lg,
   th.hidden-sm.hidden-lg,
@@ -5866,7 +5866,7 @@ td.hidden-md {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .hidden-md,
   tr.hidden-md,
   th.hidden-md,
@@ -5874,7 +5874,7 @@ td.hidden-md {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .hidden-md.hidden-lg,
   tr.hidden-md.hidden-lg,
   th.hidden-md.hidden-lg,
@@ -5911,7 +5911,7 @@ td.hidden-lg {
     display: none !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width: 11999px) {
   .hidden-lg.hidden-md,
   tr.hidden-lg.hidden-md,
   th.hidden-lg.hidden-md,
@@ -5919,7 +5919,7 @@ td.hidden-lg {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 12000px) {
   .hidden-lg,
   tr.hidden-lg,
   th.hidden-lg,
